@@ -1,0 +1,21 @@
+Website Project
+
+  1.Build the Project
+  - creating the folder
+  - adding files
+  - connecting files
+
+  2. Navbar
+  - links and a name
+
+  3. Portfolio Item Grid
+  - images
+  - titles
+  - descriptions
+  - animations
+  - javascript
+
+  4. About Page
+  - images
+  - split column layout
+  - content
