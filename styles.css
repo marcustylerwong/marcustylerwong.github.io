@@ -100,6 +100,7 @@ h1 {
     font-weight: 150;
     margin-top: 50px;
     letter-spacing: 5px;
+    padding-bottom: 10px;
   }
 
 .h-title {
@@ -115,7 +116,7 @@ h1 {
     background-color:#f5c0a2;
     height:10px;
     position:absolute;
-    top:50%;
+    top:45%;
     transform:translateY(-50%);
     left:25%;
     width:50%;
@@ -175,6 +176,37 @@ h1 {
  .h-nav-link-wrapper a:hover {
     color: black;
  }
+
+ /*project title Styles*/
+ .project-title {
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    text-align: center;
+    margin: 0% 10;
+    padding-bottom: 10px;
+ }
+ 
+ .project-title-wrapper{
+     display: flex;
+     height: 25px;
+     border-bottom:1px solid transparent;
+     transition: border-bottom 0.5s;
+ }
+
+ .project-title-wrapper a{
+    color:#8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+ }
+
+.project-title-wrapper:hover{
+    border-bottom: 1px solid black;
+
+}
+.project-title-wrapper:hover a{
+    color:black;
+}
 
  /*Line Break*/
 hr {
@@ -282,7 +314,12 @@ section {
   .contact-info a:hover {
     color: black;
   }
-  
+  /*Resume Styles*/
   .resume-img > a > img {
     margin-left: 25%;
   }
+
+.resume-subtext {
+    text-align: center;
+    letter-spacing: 2px;
+}
