@@ -1,94 +1,114 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>Home</title>
-      <link rel="stylesheet" href="styles.css">
-  </head>
+<html lang="en">
 
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-        <div class="container">
-           
-            <!-- Name -->
-            <h1>Marcus Wong</h1>  
+<body>
+    <!--Header-->
+    <header class="h-container">
+        
+        <!-- Header-Title -->
+        <div class="h-title">
 
-            <div  class="nav-wrapper">
+            <h1>
 
-                <!-- Navigation Bar --> 
-                <div class="nav-center">
+                Marcus Wong
 
-                    <!-- Home Button -->
-                    <div class="nav-link-wrapper">
-                        <a href="index.html">Home</a>
-                    </div>
-                    
-                    <!-- About Button -->
-                    <div class="nav-link-wrapper">
-                        <a href="contact.html">Contact</a>
-                    </div>
-                    
-                    <!-- Resume Button --> 
-                    <div class="nav-link-wrapper">
-                        <a href="resume.html">Resume</a>
-                    </div>
-
-                </div>
-
-            </div>
-
+            </h1>
+            
         </div>
 
-        <main>
-            <div>
-                <section id="introduction">
-                    <h2>Introduction</h2>
-                    <div class="profile-picture">
+        <!--Navigation Bar-->
+        <div class="h-nav-bar">
 
-                    <img src="Images/profile.jpg" alt="smiling" class="center-align">
+            <!-- Navigation Wrapper --> 
+            <div class="h-nav-wrapper">
 
-                    </div>
-                    <p>
-                        I am currently a computer science student pursuing my undergraduate degree at Pace University. 
-                        My interest for computer science stems from the creative possibilities that computer applications have to offer. 
-                        I am very interested in learning more about how software can create more opportunities for users to be more creative and productive. 
-                        I love learning how to utilize and how to create software that allows for the maximum use of imaginative minds. 
-                        I am currently looking for an internship for summer 2020.
-                    </p>
-                </section>
+                <!-- Home Button -->
+                <div class="h-nav-link-wrapper">
+                    <a href="index.html">Home</a>
+                </div>
+                
+                <!-- About Button -->
+                <div class="h-nav-link-wrapper">
+                    <a href="contact.html">Contact</a>
+                </div>
+                
+                <!-- Resume Button --> 
+                <div class="h-nav-link-wrapper">
+                    <a href="resume.html">Resume</a>
+                </div>
 
-                <section id="experience">
-                    <h2>Experience</h2>
-                    <p>Marketing Consultant - Bay Ridge School of Music - 2019</p>
-                    <p>Social Media Coordinator - ILoveKickboxing-Parkslope - 2017</p> 
-                </section>
-                <section id="projects">
-                    <h2>Projects</h2>
-                    <section id="projects--global-game-jam">
-                        <h3>Global Game Jam 2020</h3>
-                        <p>…</p>
-                    </section>
-                    <section id="projects--brickhack">
-                        <h3>BrickHack V 2019</h3>
-                        <p>…</p>
-                    </section>
+        </div>
+    
+    </div>
+
+    <!--Body-->
+    <main>
+        <hr>
+        <section id="about">
+           
+            <div class="profile-picture">
+
+            <img src="Images/profile.jpg" alt="profile-picture">
+
             </div>
-            <nav class="section-nav">
-                <ol>
-                    <li><a href="#introduction">Introduction</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a>
-                        <ul>
-                            <li class=""><a href="#projects--global-game-jam">Global Game Jam 2020</a></li>
-                            <li class=""><a href="#projects--brickhack">BrickHack V 2019</a></li>
-                        </ul>
-                    </li>
-                </ol>
-            </nav>
-        </main>
 
+            <div class="container">
+                <h2>About</h2>
+            </div>
 
-    </body>
+            <p>
+                I am currently a computer science student pursuing my undergraduate degree at Pace University. 
+                My interest for computer science stems from the creative possibilities that computer applications have to offer. 
+                I am very interested in learning more about how software can create more opportunities for users to be more creative and productive. 
+                I love learning how to utilize and how to create software that allows for the maximum use of imaginative minds. 
+                I am currently looking for an internship for summer 2020.
+            </p>
+        </section>
+        <hr>
+        <section id="projects">
+
+            <div class="container">
+            <h2>Projects</h2>
+            </div>
+
+                    <section id="projects--global-game-jam">
+                        <h3>[Unity] 3D Statue Puzzle</h3>
+                        <p>Collaborated with <a href="https://spoisseroux.com">Spencer Poisseroux</a> and Mehraj Meah to create a 3D Puzzle Game using Unity. 
+                        The player controls the rotation of the camera to drag pieces of a broken statue back together through three levels. 
+                        </p>
+                    </section>
+
+                    <section id="projects--brickhack">
+                        <h3>[Python] BrickHack V 2019</h3>
+                        <p>Collaborated with <a href="https://sarahstrickman.com">Sarah Strickman</a> and Kristy Lo to create a Visual Novel utilizing a game engine, Ren’Py. 
+                            The visual novel we created, parodies the common tropes of other visual novel games.</p>
+                    </section>
+
+        </section>
+
+    </main>
+
+    <!--Footer-->
+    <footer>
+
+    </footer>
+    
+    
+    
+    
+    
+    
+    
+    </header>
+    
+</body>
 
 </html>
