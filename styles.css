@@ -177,7 +177,7 @@ h1 {
     color: black;
  }
 
- /*project title Styles*/
+ /*Project Styles*/
  .project-title {
     display: flex;
     justify-content:space-evenly;
@@ -207,6 +207,33 @@ h1 {
 .project-title-wrapper:hover a{
     color:black;
 }
+/*Project Containers*/
+.project-container {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    padding: 0 10 px;    
+}
+
+.project-container::after {
+    content:'';
+    background-color:#f5c0a2;
+    height:5px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    left:35%;
+    width:30%;
+    z-index:-1
+}
+
+/*Project Date*/
+.project-date {
+    font-family: "Larsseit",-apple-system,BlinkMacSystemFont,"Futura",sans-serif;
+    opacity: 50%;
+    text-align: center;
+    font-size: 90%;
+} 
 
  /*Line Break*/
 hr {
