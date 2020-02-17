@@ -189,7 +189,7 @@ h1 {
  
  .project-title-wrapper{
      display: flex;
-     height: 25px;
+     height: 50px;
      border-bottom:1px solid transparent;
      transition: border-bottom 0.5s;
  }
@@ -226,7 +226,12 @@ h1 {
     width:30%;
     z-index:-1
 }
-
+.project-credits {
+    font-family:"Larsseit",-apple-system,BlinkMacSystemFont,"Futura",sans-serif;
+    font-size: 80%;
+    letter-spacing: 2px;
+    margin-top:10px;
+}
 /*Project Date*/
 .project-date {
     font-family: "Larsseit",-apple-system,BlinkMacSystemFont,"Futura",sans-serif;
@@ -234,6 +239,34 @@ h1 {
     text-align: center;
     font-size: 90%;
 } 
+.p-article{
+    margin-left: auto;
+    margin-right: auto;
+    font-family:"Larsseit",-apple-system,BlinkMacSystemFont,"Futura",sans-serif;
+    font-size: 75%;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+.p-github {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family:"Larsseit",-apple-system,BlinkMacSystemFont,"Futura",sans-serif;
+    font-size: 100%;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 25px;
+    text-transform: uppercase;
+}
+
+.project-description > img {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
  /*Line Break*/
 hr {
@@ -276,8 +309,9 @@ text-align: center;
     margin-bottom: 2%;
     font-family: "Larsseit",-apple-system,BlinkMacSystemFont,"Futura",sans-serif;
     font-weight: 100px;
-    font-size: 0.9em;
+    font-size: 1.5em;
     letter-spacing: 5px;
+    padding: 10px;
 }
 
  /*Paragraph Styles*/
@@ -291,7 +325,7 @@ p{
  /*Section Spacing*/
 section {
     padding-top: 1.5rem;
-	padding-bottom: 5rem;
+	padding-bottom: 3rem;
 }
 
 /* Contact Styles */
@@ -349,4 +383,11 @@ section {
 .resume-subtext {
     text-align: center;
     letter-spacing: 2px;
+}
+
+.footer{
+    background-color: #ffe0cf;
+    opacity: 90%;
+    padding: 50px; 
+
 }
