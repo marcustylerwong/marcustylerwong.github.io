@@ -391,3 +391,10 @@ section {
     padding: 50px; 
 
 }
+.f-container {
+    font-family: "Larsseit",-apple-system,BlinkMacSystemFont,"Futura",sans-serif;
+    font-size: 75%;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    text-align: center;
+}
