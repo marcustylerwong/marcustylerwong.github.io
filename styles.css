@@ -382,7 +382,9 @@ section {
 .resume-subtext {
     text-align: center;
     letter-spacing: 2px;
+    margin-bottom: 50px;
 }
+
 
 .footer{
     background-color: #ffe0cf;
